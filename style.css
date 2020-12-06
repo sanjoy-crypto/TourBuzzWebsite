@@ -1,0 +1,324 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    /* overflow: hidden; */
+}
+
+.header {
+
+    background: url(/photo/bd2.jpg)no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 600px;
+    width: 100%;
+    opacity: 4;
+
+}
+
+
+.ts {
+    text-align: center;
+    color: white;
+    /* flex-wrap: wrap; */
+    font-family: 'Merienda One', cursive;
+    font-size: 50px;
+    margin: 85px 20px 0px 20px;
+
+}
+
+.ts1 {
+    text-align: center;
+    color: white;
+    /* font-family: 'Merienda One', cursive; */
+    /* font-family: 'Bowlby One SC', cursive; */
+    /* font-family: 'Anton', sans-serif; */
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 98PX;
+    margin: 0px 20px 0px 20px;
+
+    /* font-weight: bold; */
+}
+
+.text {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin: 0px 20px;
+    font-family: 'Baloo Thambi 2', cursive;
+}
+
+@media (max-width: 1000px) {
+    .ts {
+        font-size: 40px;
+    }
+
+    .ts1 {
+        font-size: 70px;
+    }
+
+    .text {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 750px) {
+    .header {
+        height: 400px;
+    }
+
+    .fetures {
+        margin-top: -50px;
+    }
+
+    .ts {
+        font-size: 32px;
+    }
+
+    .ts1 {
+        font-size: 55px;
+    }
+
+    .text {
+        font-size: 20px;
+    }
+
+    .mysearch {
+
+        border-radius: 20px;
+        background-color: white;
+        font-size: 14px;
+        padding: 2px 15px;
+        width: 100px;
+    }
+
+    @media (max-width: 480px) {
+        .ts {
+            font-size: 22px;
+        }
+
+        .ts1 {
+            font-size: 30px;
+        }
+
+        .text {
+            font-size: 14px;
+        }
+
+    }
+
+    .mybtn {
+        width: 70px;
+        background-color: rgb(20, 172, 85);
+        border-radius: 20px;
+        padding: 2px 0px 2px 15px;
+        font-size: 14px;
+    }
+}
+
+.input-group {
+    width: 90% !important;
+    max-width: 500px;
+    border-radius: 30px;
+    margin: auto;
+    padding: 2px;
+
+}
+
+.mysearch {
+    border: 0px !important;
+    border-radius: 30px;
+    background-color: white;
+
+}
+
+.mybtn {
+    width: 100px;
+    background-color: rgb(20, 172, 85);
+    border-radius: 30px;
+    padding-left: 24px;
+}
+
+/* fetures */
+
+.fetures {
+    margin: 525px 0px 0px 0px;
+}
+
+/* .fetures h1{
+    text-align: center;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+} */
+.pht {
+    height: 230px;
+}
+
+.taka {
+    margin-left: 20px;
+    position: absolute;
+    left: 0px;
+    bottom: -20px;
+    height: 40px;
+    width: 40px;
+    background-color: tomato;
+    border-radius: 30px;
+    color: white;
+    padding: 12px 4px;
+    font-size: 11px;
+}
+
+.rating {
+    margin-left: 20px;
+    color: tomato;
+    background-color: white;
+}
+
+.cimg {
+    position: relative;
+}
+
+.rating {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+.iconforcard {
+    color: tomato;
+    margin-right: 6px;
+}
+
+/* gallery/ */
+
+.gallery {
+    padding: 48px 0px;
+}
+
+.gallery h1 {
+    text-align: center;
+    /* padding-bottom: 20px; */
+
+}
+
+.gallery .card img {
+    transition: 1s;
+}
+
+.gallery .card img:hover {
+    transform: scale(1.1);
+}
+
+
+/* banner */
+
+
+/* .banner::before{
+    content: "";
+    background:url(/photo/5real.jpg) no-repeat center center/cover;
+    position: absolute;
+    height:80%;
+    width: 100%;
+    z-index: -1;
+    opacity: 1;
+   
+}  */
+
+.banner {
+    height: 100%;
+    background: url(/photo/5real.jpg) no-repeat center center/cover;
+    padding-top: 13%;
+    padding-bottom: 13%;
+
+}
+
+.banner-highlight {
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    text-align: center;
+    padding: 30px;
+
+}
+
+.btn1 {
+
+    border-radius: 30px;
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+/* user feedback */
+.user-feedback {
+    margin: 30px;
+    text-align: center;
+}
+
+.user-feedback h1 {
+    margin-bottom: 30px;
+}
+
+.admin-review {
+
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 100, 0.2);
+    padding: 50px 23px 35px 23px;
+}
+
+.user-feedback img {
+    width: 65px;
+    height: 65px;
+    border-radius: 50px;
+    position: relative;
+    /* margin: -37px 3px; */
+    top: -29px;
+}
+
+.admin-review .admin-text::before {
+    content: "\201d";
+    display: block;
+    position: absolute;
+    font-size: 100px;
+    color: #3498DB;
+    font-family: sans-serif;
+    margin: -70px 0px 0px 134px;
+}
+
+/* footer   */
+.footer {
+    padding: 70px 13px;
+    background-image: linear-gradient(purple, navy);
+    color: white;
+}
+
+.footer-text {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.footer .logo-icon {
+    font-size: 100px;
+}
+
+.footer h3 {
+    padding: 12px 0px 19px 0px;
+}
+
+.this-footer p {
+    padding-bottom: 7px;
+
+}
+
+.footer hr {
+    background: white;
+    margin-top: 50px;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 50px;
+}
